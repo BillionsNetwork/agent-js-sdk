@@ -24,6 +24,8 @@
     "build": "npm run clean && tsup && npm run build:types",
     "build:types": "tsc --declaration --emitDeclarationOnly",
     "test": "vitest run --bail=1",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/agentkit tests/client",
     "lint": "eslint --fix src tests",
     "lint:check": "eslint src tests",
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
