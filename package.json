@@ -76,7 +76,7 @@
     "@types/express": "^5.0.1",
     "@types/fs-extra": "^11.0.1",
     "@types/jsonld": "^1.5.11",
-    "@types/node": "^20.8.9",
+    "@types/node": "^24.19.2",
     "@types/pubsub-js": "^1.8.6",
     "@types/uuid": "^9.0.6",
     "@typescript-eslint/eslint-plugin": "^5.41.0",
@@ -87,7 +87,7 @@
     "vitest": "3.2.4"
   },
   "engines": {
-    "node": ">=20.19.0"
+    "node": ">=24.22.1"
   },
   "private": true,
   "overrides": {
